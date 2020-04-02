@@ -1,0 +1,26 @@
+$(function(){
+    $('#l1').click(function(){
+        $('#i4').hide('slow');
+        $('#i2').hide('slow');
+        $('#i3').hide('slow');
+        $('#i1').show();
+    });
+    $('#l2').click(function(){
+        $('#i1').hide('slow');
+        $('#i3').hide('slow');
+        $('#i4').hide('slow');
+        $('#i2').show();
+    });
+    $('#l3').click(function(){
+        $('#i1').hide('slow');
+        $('#i2').hide('slow');
+        $('#i4').hide('slow');
+        $('#i3').show();
+    });
+    $('#l4').click(function(){
+        $('#i1').hide('slow');
+        $('#i2').hide('slow');
+        $('#i3').hide('slow');
+        $('#i4').show();
+    });
+});
